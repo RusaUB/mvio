@@ -1,0 +1,10 @@
+%YAML:1.0
+---
+imagePath: "../dataset/infra1"
+imuPath: "../dataset/imu_px4.csv"
+simulateRealtime: 0
+showStream: 0
+showFeatures: 0
+saveFrames: 0
+saveImu: 0
+averageThreshold: 30.0

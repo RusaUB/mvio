@@ -1,2 +1,4 @@
 build/
 dataset/
+.DS_Store
+*.asv

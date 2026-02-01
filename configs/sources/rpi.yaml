@@ -1,0 +1,7 @@
+%YAML:1.0
+---
+showStream: 1
+showFeatures: 1
+saveFrames: 1
+saveImu: 1
+averageThreshold: 30.0

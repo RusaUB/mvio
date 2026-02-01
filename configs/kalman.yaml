@@ -1,0 +1,9 @@
+%YAML:1.0
+---
+# Kalman Filter Parameters
+kfAccNoise: 3.0
+kfGyroNoise: 3.0
+kfAccBiasNoise: 0.000001
+kfGyroBiasNoise: 0.000001
+kfPosCov: 0.0001
+kfRotCov: 0.0001

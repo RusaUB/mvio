@@ -1,0 +1,41 @@
+%YAML:1.0
+---
+averageThreshold: 30.0
+# Source Selection: "folder", "rpi", "phone"
+dataSourceType: "folder"
+
+
+# VO Parameters
+minFeatures: 300
+ransacThreshold: 1.0
+ransacProb: 0.999
+
+# PnP Parameters (3Dto2D)
+pnpMinInliers: 10
+pnpReprojectionError: 1.0
+pnpConfidence: 0.99
+
+# VIO Initialization & Tracking
+vioMinInitBuffer: 4
+vioMinDt: 0.001
+vioScaleMin: 0.1
+vioScaleMax: 100.0
+vioGravityMin: 8.0
+vioGravityMax: 12.0
+
+min3DPoints: 6
+maxPointDepth: 50.0
+minPointDepth: 0.1
+maxPointLateral: 500.0
+maxTranslationJump: 10.0
+
+vioInitBufferSize: 15
+vioMaxInitBufferSize: 100
+
+# IMU Initial Biases
+imuInitBiasAx: 0.0
+imuInitBiasAy: 0.0
+imuInitBiasAz: 0.0
+imuInitBiasGx: 0.0 
+imuInitBiasGy: 0.0
+imuInitBiasGz: 0.0

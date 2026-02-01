@@ -1,0 +1,7 @@
+build/
+dataset/
+.git/
+.gitignore
+.DS_Store
+*.swp
+.vscode/

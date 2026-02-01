@@ -1,0 +1,23 @@
+%YAML:1.0
+---
+# Camera Intrinsics
+fx: 426.88
+fy: 429.44
+cx: 424.99
+cy: 245.67
+k1: 0.0
+k2: 0.0
+p1: 0.0
+p2: 0.0
+
+# Extrinsics (Body to Camera)
+extrinsicRotation: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+extrinsicTranslation: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 0., 0., 0. ]

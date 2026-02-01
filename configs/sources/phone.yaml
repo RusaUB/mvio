@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+imagePath: "../MobileSensorData/1/frames"
+imuPath: "../MobileSensorData/1/imu.csv"
+simulateRealtime: 0
+showStream: 1
+showFeatures: 1
+saveFrames: 0
+saveImu: 0
+averageThreshold: 30.0
+
+# Shake Synchronization
+useShakeSync: 1
+shakeAccThreshold: 30.0
+shakeSearchWindow: 15.0
+shakeSettleTime: 1.0
