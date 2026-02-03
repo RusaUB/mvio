@@ -1,10 +1,13 @@
 # MVIO: Monocular Visual Inertial Odometry
 
-![Demo](docs/demo.gif)
 ![Drone Banner](docs/drone.JPG)
 
 ## Overview
 MVIO is a robust Monocular Visual Inertial Odometry system designed for accurate state estimation on aerial platforms. It fuses data from a single camera and an Inertial Measurement Unit (IMU) to track trajectory and pose in real-time.
+
+## Demo
+
+![Demo](docs/demo.gif)
 
 ## Status & Compatibility
 This project is **stable** and tested with the following library versions:
