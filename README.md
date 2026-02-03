@@ -1,7 +1,6 @@
 # MVIO: Monocular Visual Inertial Odometry
 
-<img src="docs/demo.gif" width="100%" alt="Demo">
-
+![Demo](docs/demo.gif)
 ![Drone Banner](docs/drone.JPG)
 
 ## Overview
