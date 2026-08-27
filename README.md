@@ -46,11 +46,10 @@ After building, you can run the main executable from the project root or build d
 ```bash
 ./build/mvio
 ```
+Configuration files are located in the `configs/` directory.
 
 ## Contributors
 
 <a href="https://github.com/RusaUB/mvio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RusaUB/mvio" alt="Contributors" />
 </a>
-
-Configuration files are located in the `configs/` directory.
